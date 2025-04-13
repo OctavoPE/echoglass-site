@@ -79,8 +79,8 @@ export default function TeamPage() {
                     </div>
                     <div className="bg-muted h-full min-h-[300px] relative">
                       <Image
-                        src="/placeholder.svg?height=400&width=400&text=Team Member 1"
-                        alt="Team Member 1"
+                        src="/jeanmarco.jpg"
+                        alt="Photo of Jeanmarco"
                         fill
                         className="object-cover"
                       />
