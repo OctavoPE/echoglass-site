@@ -84,7 +84,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/echoglass-home.jpg&text=EchoGlass's Home screen"
+                  src="/echoglass-home.jpg"
                   alt="EchoGlass-home.jpg"
                   width={600}
                   height={400}
