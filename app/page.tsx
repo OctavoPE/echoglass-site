@@ -41,15 +41,24 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex items-center justify-center">
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/EG.png"
-                  alt="3d model of EchoGlass Smart mirror"
-                  width={600}
-                  height={400}
-                  className="rounded-lg border shadow-md"
-                />
-              </div>
+                <div className="relative h-[350px] w-[300px] sm:h-[450px] sm:w-[400px] lg:h-[550px] lg:w-[500px] border-8 border-gray-800 rounded-lg shadow-lg overflow-hidden bg-black">
+                  <div className="absolute inset-0 bg-gradient-to-br from-gray-900/80 to-gray-900/40 z-10"></div>
+                  <div className="absolute top-8 right-8 text-white z-20 flex flex-col items-end">
+                    <Clock className="h-8 w-8 mb-2" />
+                    <div className="text-2xl font-bold">10:30 AM</div>
+                    <div className="text-sm">Monday, April 11</div>
+                  </div>
+                  <div className="absolute bottom-8 left-8 text-white z-20">
+                    <div className="flex items-center mb-4">
+                      <Thermometer className="h-6 w-6 mr-2" />
+                      <span className="text-xl">72°F</span>
+                    </div>
+                    <div className="flex items-center">
+                      <Cloud className="h-6 w-6 mr-2" />
+                      <span className="text-xl">Partly Cloudy</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -76,7 +85,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <Image
                   src="/echoglass-home.jpg"
-                  alt="Homescreen of EchoGlass. The mirror surface shows the calendar, time, weather, commute time, and news headline."
+                  alt="The EchoGlass mirror screen. Showing weather, calendar, the time and rotating news headlines."
                   width={600}
                   height={400}
                   className="rounded-lg border shadow-md"
