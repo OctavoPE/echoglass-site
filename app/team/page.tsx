@@ -95,30 +95,21 @@ export default function TeamPage() {
                   <div className="grid md:grid-cols-2">
                     <div className="bg-muted h-full min-h-[300px] relative order-last md:order-first">
                       <Image
-                        src="/placeholder.svg?height=400&width=400&text=Team Member 2"
-                        alt="Team Member 2"
+                        src="/hosoo.jpg"
+                        alt="Photo of Hosoo"
                         fill
                         className="object-cover"
                       />
                     </div>
                     <div className="p-6 md:p-8">
-                      <h2 className="text-2xl font-bold mb-2">Team Member 2</h2>
-                      <p className="text-sm text-muted-foreground mb-4">Hardware Engineer / System Architect</p>
+                      <h2 className="text-2xl font-bold mb-2">Hosoo</h2>
+                      <p className="text-sm text-muted-foreground mb-4">Completing a B.S. in Computer Science with a Fintech Minor</p>
                       <div className="prose prose-sm max-w-none text-muted-foreground">
                         <p>
-                          I'm completing my degree in Electrical Engineering with a focus on embedded systems and IoT
-                          devices. My academic background includes extensive work with microcontrollers, sensors, and
-                          hardware integration.
+                        I am a senior Computer Science student at the University of Utah, with a strong focus on artificial intelligence, machine learning, and fintech applications. I enjoy building functional and secure tools that blend AI with everyday life. My work spans full-stack development, API integrations, and deep learning, and I’m especially drawn to problems that require both creative and technical thinking. Outside of school, I enjoy exploring new tech trends, developing personal projects, and refining innovative workflows.
                         </p>
                         <p>
-                          For EchoGlass, I designed the hardware architecture and integrated the various components into
-                          a cohesive system. I'm particularly interested in energy-efficient computing and sensor fusion
-                          technologies. Previously, I've worked on several robotics projects and smart home prototypes.
-                        </p>
-                        <p>
-                          Outside of engineering, I enjoy building custom electronics, playing chess, and restoring
-                          vintage computers. After graduation, I hope to work in product development for consumer IoT
-                          devices.
+                        For the EchoGlass project, I focused on integrating multiple Google services to enable real-time, voice-activated interactions. I set secure OAuth authentication to connect Google Calendar and Workspace accounts, allowing users to retrieve personalized schedules, tasks, and reminders directly on the smart mirror. I also implemented a real-time commute module using Google Maps APIs, which lets users ask for traffic updates and estimated travel times to frequently visited locations. These integrations were combined with the ChatGPT API to support natural voice queries, enabling a seamless user experience. My contributions ensured that EchoGlass remains responsive, secure, and deeply connected to users’ everyday digital lives.
                         </p>
                       </div>
                       <div className="flex items-center mt-6 space-x-4">
