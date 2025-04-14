@@ -33,7 +33,7 @@ export default function TutorialPage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">User Tutorial</h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Learn how to set up and use your EchoGlass smart mirror
+                  How EchoGlass works
                 </p>
               </div>
             </div>
