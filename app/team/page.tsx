@@ -114,19 +114,19 @@ export default function TeamPage() {
                       </div>
                       <div className="flex items-center mt-6 space-x-4">
                         <Button variant="outline" size="icon" asChild>
-                          <Link href="mailto:team2@echoglass.edu">
+                          <Link href="mailto:michaelhlee00@gmail.com">
                             <Mail className="h-4 w-4" />
                             <span className="sr-only">Email</span>
                           </Link>
                         </Button>
                         <Button variant="outline" size="icon" asChild>
-                          <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                          <Link href="https://linkedin.com/in/hosoo" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="h-4 w-4" />
                             <span className="sr-only">LinkedIn</span>
                           </Link>
                         </Button>
                         <Button variant="outline" size="icon" asChild>
-                          <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <Link href="https://github.com/DazzlerByte" target="_blank" rel="noopener noreferrer">
                             <Github className="h-4 w-4" />
                             <span className="sr-only">GitHub</span>
                           </Link>
