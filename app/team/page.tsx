@@ -142,41 +142,31 @@ export default function TeamPage() {
                 <CardContent className="p-0">
                   <div className="grid md:grid-cols-2">
                     <div className="p-6 md:p-8">
-                      <h2 className="text-2xl font-bold mb-2">Team Member 3</h2>
-                      <p className="text-sm text-muted-foreground mb-4">Backend Developer / Cloud Infrastructure</p>
+                      <h2 className="text-2xl font-bold mb-2">Leonardo</h2>
+                      <p className="text-sm text-muted-foreground mb-4">Completing a B.S. in Computer Science</p>
                       <div className="prose prose-sm max-w-none text-muted-foreground">
                         <p>
-                          I am pursuing a dual degree in Computer Science and Data Science, with a focus on cloud
-                          computing and distributed systems. My academic research has centered on efficient data
-                          processing for IoT applications.
+                        I'm a senior Computer Science student at the University of Utah. My interests and experience include security, deep learning, reinforcement learning, and cyber-physical systems. I'm currently working on projects from each of those areas. I love working in teams that solve complex and challenging problems. 
                         </p>
                         <p>
-                          For the EchoGlass project, I developed the cloud infrastructure and backend services that
-                          power the mirror's smart features. I'm particularly interested in edge computing, real-time
-                          data processing, and privacy-preserving technologies. I've previously contributed to
-                          open-source projects in the IoT space.
-                        </p>
-                        <p>
-                          In my free time, I enjoy competitive programming, playing basketball, and experimenting with
-                          home automation. After graduation, I plan to pursue a career in cloud architecture for
-                          connected devices.
+                        For our project, my responsibility was touch capability via IR frame, having multiple views/pages, and the construction of the physical frame that ties all of the components together. I set up and made sure that the IR frame gave the user the capability to interact with EchoGlass via touch. After listening to user feedback, I implemented the ability to have multiple pages of modules to avoid clutter and have access to more information that is important to the user. Since EchoGlass is a mirror, it needed a home that showed it off in the best way for the user. I constructed the frame to give EchoGlass a sleek look that still allows users to interact with it by touch and voice. EchoGlass has been an amazing project to be part of.
                         </p>
                       </div>
                       <div className="flex items-center mt-6 space-x-4">
                         <Button variant="outline" size="icon" asChild>
-                          <Link href="mailto:team3@echoglass.edu">
+                          <Link href="mailto:leoleano00@gmail.com">
                             <Mail className="h-4 w-4" />
                             <span className="sr-only">Email</span>
                           </Link>
                         </Button>
                         <Button variant="outline" size="icon" asChild>
-                          <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                          <Link href="https://linkedin.com/in/leonardo-leano/" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="h-4 w-4" />
                             <span className="sr-only">LinkedIn</span>
                           </Link>
                         </Button>
                         <Button variant="outline" size="icon" asChild>
-                          <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <Link href="https://github.com/leoleano" target="_blank" rel="noopener noreferrer">
                             <Github className="h-4 w-4" />
                             <span className="sr-only">GitHub</span>
                           </Link>
