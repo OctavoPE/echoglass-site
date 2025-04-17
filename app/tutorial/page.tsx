@@ -45,40 +45,7 @@ export default function TutorialPage() {
 
             {/* Tutorial Sections */}
             <div className="mx-auto max-w-5xl py-12 space-y-16">
-              {/* Touch Tutorial */}
-              <div className="space-y-6">
-                <h2 className="text-2xl font-bold flex items-center">
-                  <Layout className="mr-2 h-6 w-6 text-primary" />
-                  Interacting with Touch
-                </h2>
-                <div className="grid gap-6 md:grid-cols-2">
-                  <div>
-                    <video
-                      className="w-full rounded-lg border"
-                      controls
-                      src="/tut_touch.mp4"
-                      aria-label="Tutorial video for touch interaction with EchoGlass"
-                    >
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Using the Touch Interface</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">
-                        The EchoGlass touch interface allows you to navigate the smart mirror by
-                        pressing on the page indicators:
-                      </p>
-                      <ul className="mt-4 space-y-2 text-sm text-muted-foreground list-disc pl-5">
-                        <li>Tap a page indicator to immediately jump to it.</li>
-                      </ul>
-                    </CardContent>
-                  </Card>
-                </div>
-              </div>
-
+              
               {/* Voice Tutorial */}
               <div className="space-y-6">
                 <h2 className="text-2xl font-bold flex items-center">
@@ -150,12 +117,47 @@ export default function TutorialPage() {
                   </Card>
                 </div>
               </div>
+              {/* Touch Tutorial */}
+              <div className="space-y-6">
+                <h2 className="text-2xl font-bold flex items-center">
+                  <Layout className="mr-2 h-6 w-6 text-primary" />
+                  Interacting with Touch
+                </h2>
+                <div className="grid gap-6 md:grid-cols-2">
+                  <div>
+                    <video
+                      className="w-full rounded-lg border"
+                      controls
+                      src="/tut_touch.mp4"
+                      aria-label="Tutorial video for touch interaction with EchoGlass"
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Using the Touch Interface</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        The EchoGlass touch interface allows you to navigate the smart mirror by
+                        pressing on the page indicators:
+                      </p>
+                      <ul className="mt-4 space-y-2 text-sm text-muted-foreground list-disc pl-5">
+                        <li>Tap a page indicator to immediately jump to it.</li>
+                        <li>If casting media, you can pause it by touching the screen.</li>
+                      </ul>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+
             </div>
 
             {/* Support Links */}
             <div className="mx-auto max-w-5xl mt-8 text-center">
               <p className="text-muted-foreground mb-4">
-                Want to see more? Come check us out on Demo day, we'd love to present it to you.
+                Want to see more? Come check us out on Demo day, we're excited to show you our passion project'.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               </div>
