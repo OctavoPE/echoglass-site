@@ -157,7 +157,7 @@ export default function TutorialPage() {
             {/* Support Links */}
             <div className="mx-auto max-w-5xl mt-8 text-center">
               <p className="text-muted-foreground mb-4">
-                Want to see more? Come check us out on Demo day, we're excited to show you our passion project'.
+                Want to see more? Come check us out on Demo day, we're excited to show you our passion project.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               </div>
