@@ -45,43 +45,6 @@ export default function TutorialPage() {
 
             {/* Tutorial Sections */}
             <div className="mx-auto max-w-5xl py-12 space-y-16">
-              {/* Casting Tutorial */}
-              <div className="space-y-6">
-                <h2 className="text-2xl font-bold flex items-center">
-                  <Smartphone className="mr-2 h-6 w-6 text-primary" />
-                  Casting to EchoGlass
-                </h2>
-                <div className="grid gap-6 md:grid-cols-2">
-                  <div>
-                    <video
-                      className="w-full rounded-lg border"
-                      controls
-                      src="/tut_cast.mp4"
-                      aria-label="Tutorial video for casting to EchoGlass"
-                    >
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>How to Cast Media</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">
-                        Effortlessly cast media from your smartphone, tablet, or computer to your EchoGlass smart
-                        mirror. Follow these steps:
-                      </p>
-                      <ul className="mt-4 space-y-2 text-sm text-muted-foreground list-disc pl-5">
-                        <li>Ensure your device and EchoGlass are on the same Wi-Fi network.</li>
-                        <li>Open a compatible app (e.g., YouTube, Netflix) on your device.</li>
-                        <li>Tap the cast icon and select your EchoGlass from the list.</li>
-                        <li>Control playback directly from your device or use voice commands like "Hey Glass, pause."</li>
-                      </ul>
-                    </CardContent>
-                  </Card>
-                </div>
-              </div>
-
               {/* Touch Tutorial */}
               <div className="space-y-6">
                 <h2 className="text-2xl font-bold flex items-center">
@@ -105,14 +68,11 @@ export default function TutorialPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        The EchoGlass touch interface allows you to navigate and customize your smart mirror with
-                        simple gestures. Here's how:
+                        The EchoGlass touch interface allows you to navigate the smart mirror by
+                        pressing on the page indicators:
                       </p>
                       <ul className="mt-4 space-y-2 text-sm text-muted-foreground list-disc pl-5">
-                        <li>Tap a widget to expand it for more details.</li>
-                        <li>Swipe left or right to switch between widget pages.</li>
-                        <li>Pinch to zoom in on content like maps or images.</li>
-                        <li>Long-press to enter edit mode and rearrange widgets.</li>
+                        <li>Tap a page indicator to immediately jump to it.</li>
                       </ul>
                     </CardContent>
                   </Card>
@@ -142,14 +102,49 @@ export default function TutorialPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        Use voice commands to interact with EchoGlass hands-free. Activate it with "Hey Glass" and
+                        Use voice commands to interact with EchoGlass hands-free. Activate it with "Hey EchoGlass" and
                         try these commands:
                       </p>
                       <ul className="mt-4 space-y-2 text-sm text-muted-foreground list-disc pl-5">
-                        <li>"Hey Glass, show me the weather."</li>
-                        <li>"Hey Glass, switch to the news widget."</li>
-                        <li>"Hey Glass, play my morning playlist."</li>
-                        <li>"Hey Glass, dim the display."</li>
+                        <li>"Hey EchoGlass, show me the weather."</li>
+                        <li>"Hey EchoGlass, what's on my calendar?"</li>
+                        <li>"Hey EchoGlass, How long is my commute?"</li>
+                        <li>"Hey EchoGlass, What continent is France in?"</li>
+                      </ul>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+              {/* Casting Tutorial */}
+                <div className="space-y-6">
+                <h2 className="text-2xl font-bold flex items-center">
+                  <Smartphone className="mr-2 h-6 w-6 text-primary" />
+                  Casting to EchoGlass
+                </h2>
+                <div className="grid gap-6 md:grid-cols-2">
+                  <div>
+                    <video
+                      className="w-full rounded-lg border"
+                      controls
+                      src="/tut_cast.mp4"
+                      aria-label="Tutorial video for casting to EchoGlass"
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>How to Cast Media</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        When on the same network, you can effortlessly cast media from your other devices, such as a smartphone, tablet, or computer, to EchoGlass.:
+                      </p>
+                      <ul className="mt-4 space-y-2 text-sm text-muted-foreground list-disc pl-5">
+                        <li>Ensure your device and EchoGlass are on the same Wi-Fi network.</li>
+                        <li>Open a compatible app (e.g., YouTube, Netflix) on your device.</li>
+                        <li>Tap the cast icon and select your EchoGlass from the list.</li>
+                        <li>Control playback directly from your device.</li>
                       </ul>
                     </CardContent>
                   </Card>
@@ -160,15 +155,9 @@ export default function TutorialPage() {
             {/* Support Links */}
             <div className="mx-auto max-w-5xl mt-8 text-center">
               <p className="text-muted-foreground mb-4">
-                Need more help? Explore our documentation or reach out to our support team.
+                Want to see more? Come check us out on Demo day, we'd love to present it to you.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link href="#" className="text-sm font-medium hover:underline">
-                  Full Documentation
-                </Link>
-                <Link href="#" className="text-sm font-medium hover:underline">
-                  Contact Support
-                </Link>
               </div>
             </div>
           </div>
